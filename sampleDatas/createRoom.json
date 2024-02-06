@@ -1,0 +1,7 @@
+{
+  "roomID": 1,
+  "roomName": "Board Room D",
+  "seats": 12,
+  "amenities": ["Projector", "Video Conferencing"],
+  "pricePerHour": 45
+}

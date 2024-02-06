@@ -1,0 +1,31 @@
+[
+  {
+    "roomID": 1,
+    "roomName": "Conference Room A",
+    "bookedStatus": true,
+    "customerName": "Elijah",
+    "date": "2024-02-01",
+    "startTime": "9:00 AM",
+    "endTime": "11:00 AM"
+  },
+  {
+    "roomID": 2,
+    "roomName": "Meeting Room B",
+    "bookedStatus": true,
+    "customerName": "Rebecca",
+    "date": "2024-02-02",
+    "startTime": "2:00 PM",
+    "endTime": "4:00 PM"
+  },
+  {
+    "roomID": 3,
+    "roomName": "Training Room C",
+    "bookedStatus": true,
+    "customerName": "Isaac",
+    "date": "2024-02-03",
+    "startTime": "10:30 AM",
+    "endTime": "12:30 PM"
+  }
+]
+
+  
