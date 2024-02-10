@@ -8,5 +8,25 @@
     "startTime": "12:00pm",
     "endTime": "11:59am",
     "status": "booked"
+  },
+  {
+    "bookingID": "B2",
+    "roomID": "R2",
+    "customerID": "C1",
+    "customerName": "Samuvel",
+    "date": "February 10th 2024",
+    "startTime": "12:00pm",
+    "endTime": "11:59am",
+    "status": "booked"
+  },
+  {
+    "bookingID": "B3",
+    "roomID": "R3",
+    "customerID": "C1",
+    "customerName": "Samuvel",
+    "date": "February 10th 2024",
+    "startTime": "12:00pm",
+    "endTime": "11:59am",
+    "status": "booked"
   }
 ]
