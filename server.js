@@ -1,10 +1,16 @@
-import Express  from 'express'
-import UserRoute from './routes/hallsRoutes.js'
+import express  from 'express'
+import HallsRoute from './routes/hallsRoutes.js'
 
-const app = Express()
+const app = express()
 const PORT = process.env.PORT || 8000;
 
-app.use('/users',UserRoute)
+// Middleware to parse JSON bodies
+app.use(express.json());
+
+// Middleware to parse URL-encoded bodies
+app.use(express.urlencoded({ extended: true }));
+
+app.use('/rooms',HallsRoute)
 
 app.get('/', (req,res)=> {
     res.send('<h1>Welcome to Express</h1>')

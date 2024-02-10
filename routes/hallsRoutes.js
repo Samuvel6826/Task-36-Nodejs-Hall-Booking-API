@@ -1,12 +1,13 @@
 import Express from 'express';
-import { UserController } from '../controller/hallsControllers.js';
+import { HallsController } from '../controller/hallsControllers.js';
 
 const router = Express.Router();
 
-// router.post('/createRoom', UserController.getUsers);
-// router.post('/bookRoom', UserController.getUsers);
-// router.get('/listRooms', UserController.getUsers);
-// router.get('/listCustomers', UserController.getUsers);
-router.get('/', UserController.getUsers);
+router.get('/all', HallsController.getRooms);
+router.post('/create-room', HallsController.createRoom);
+router.post('/booking/create/:id', HallsController.bookRooms);
+router.get('/booked-rooms', HallsController.bookedRooms);
+router.get('/customers-booked', HallsController.listCustomers);
+router.get('/customers/booked-times', HallsController.listCustomerBookings);
 
 export default router;

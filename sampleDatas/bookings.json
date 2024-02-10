@@ -1,0 +1,12 @@
+[
+  {
+    "bookingID": "B1",
+    "roomID": "R1",
+    "customerID": "C1",
+    "customerName": "Samuvel",
+    "date": "February 10th 2024",
+    "startTime": "12:00pm",
+    "endTime": "11:59am",
+    "status": "booked"
+  }
+]
