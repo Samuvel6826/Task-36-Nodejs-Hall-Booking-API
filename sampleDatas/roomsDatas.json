@@ -2,27 +2,7 @@
   {
     "roomID": "R1",
     "roomName": "Board Room 1",
-    "seats": 6,
-    "amenities": [
-      "Projector",
-      "Video Conferencing"
-    ],
-    "pricePerHour": 69
-  },
-  {
-    "roomID": "R2",
-    "roomName": "Board Room 6",
-    "seats": 6,
-    "amenities": [
-      "Projector",
-      "Video Conferencing"
-    ],
-    "pricePerHour": 69
-  },
-  {
-    "roomID": "R3",
-    "roomName": "Board Room 6",
-    "seats": 6,
+    "seats": 5,
     "amenities": [
       "Projector",
       "Video Conferencing"
